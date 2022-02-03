@@ -1,3 +1,0 @@
-@function getColumnWidth($gap, $columns) {
-  @return calc((100% - (#{$columns} - 1) * #{$gap}) / #{$columns});
-}
